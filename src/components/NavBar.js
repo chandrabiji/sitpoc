@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import CreateProduct from './CreateProduct'
 import ProductList from './ProductList'
+import UpdateProduct from './UpdateProduct'
 
 export class NavBar extends Component {
   render() {
@@ -19,6 +20,7 @@ export class NavBar extends Component {
           <Routes>
               <Route path="/create" element={<CreateProduct/>}/>
               <Route path="/list" element={<ProductList/>}/>
+              <Route path='/update:id' element = {<UpdateProduct/> }/>
           </Routes>
          </BrowserRouter>
       </div>

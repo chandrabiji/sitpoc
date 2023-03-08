@@ -50,7 +50,7 @@ function ProductList() {
                                             <td>{p.qty}</td>
                                             <td>{p.price}</td>
                                             <td>
-                                                <button className="btn btn-primary" style={{ marginRight: 20 }}>Update</button>
+                                            <button onClick={ () => this.editProduct(p.id)} className="btn btn-info">Update </button>
                                                 <button className="btn btn-danger" onClick={(e) => deleteProduct(p.id, e)}>Delete</button>
                                             </td>
                                         </tr>

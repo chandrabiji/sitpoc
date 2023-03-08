@@ -17,6 +17,12 @@
       "pname": "xyz",
       "qty": "78",
       "price": "987"
+    },
+    {
+      "id": "400",
+      "pname": "shoes",
+      "qty": "2",
+      "price": "1200"
     }
   ]
 }
